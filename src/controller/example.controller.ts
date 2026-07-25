@@ -15,7 +15,7 @@ exampleController.use(authMiddleware)
 // Define your endpoint here 
 // use .put for PUT HTTP method
 // You also can define validation using zod  
-https://hono.dev/docs/guides/validation#zod-validator-middleware
+// https://hono.dev/docs/guides/validation#zod-validator-middleware
 
 exampleController.get('/example',async(c)=>{
     return c.json({
