@@ -41,7 +41,7 @@ bun install
 
 ## 2. Initializing container and migration 
 ```bash 
-# This script will install all the required dependecies first 
+# This script will run the database initialization and better auth migration
 bun run initialize
 ``` 
 Apply all pending migrations from your schema definitions to the database.
@@ -79,7 +79,7 @@ bun run database:gui
 # Start the development server with hot reload
 bun run dev
 
-# Access the better-auth OpenAPI documentation & REST API
+# Access the better-auth OpenAPI documentation & RESTFul API
 # Visit: http://localhost:3000/api/auth/reference
 ```
 
@@ -95,9 +95,8 @@ This opens an interactive interface where you can:
 - View all tables and their structure
 - Browse and edit data
 - Run custom queries
-- Monitor database performance
 
-## REST API & Documentation
+## RESTful API & Documentation
 
 After starting the development server, you can view the authentication openAPI documentation:
 
@@ -236,4 +235,6 @@ See full documentation at: `http://localhost:3000/api/auth/reference`
 2. ✅ Start your database
 3. ✅ Define your schema
 4. ✅ Run migrations
-5. 🚀 Start building your API routes
+5. Define your endpoints
+6. Define your business logic
+7. 🚀 Start building your API routes
