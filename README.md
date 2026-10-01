@@ -13,7 +13,7 @@ Tried combining Drizzle + Better Auth + Bun? You've probably hit UUID-MySQL conf
 - 🗄️ **Database First** — Design your schema, auto-generate migrations
 - 🔐 **Built-in Auth** — Email/password, sessions, and OAuth ready
 - 📊 **Database GUI** — Visual browser for exploring and managing data
-- 📚 **OpenAPI Docs** — Auto-generated API documentation with Swagger UI
+- 📚 **OpenAPI Docs** — Auto-generated API documentation with Scalar UI
 - ⚡ **Type-Safe** — Full TypeScript support end-to-end
 - 🐳 **Docker Ready** — Instant database setup with Docker Compose
 - 🔥 **Bun Powered** — Fast runtime with native bundling
