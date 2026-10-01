@@ -3,6 +3,8 @@
 **Database-first starter kit powered by Bun, Drizzle, and Better Auth.**  
 Design, migrate, authenticate, ship—all without configuration friction.
 
+Tried combining Drizzle + Better Auth + Bun? You've probably hit UUID-MySQL conflicts, unclear auth integration patterns, and hours of configuration hell. Bun-Fire gives you all three working out of the box
+
 > Special credit to [Nick Olson Codes](https://www.youtube.com/@nick_olson_codes) for integration ideas and reference implementation.
 
 ## Features ✨
